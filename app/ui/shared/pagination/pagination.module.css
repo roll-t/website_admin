@@ -1,0 +1,16 @@
+
+.paging{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+.next,.prev{
+    padding:5px 10px;
+    cursor: pointer;
+    border:none;
+    font-weight: bold;
+}
+.prev{
+    background: var(--bg-hover);
+    color: var(--text-soft);
+}

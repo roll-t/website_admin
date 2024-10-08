@@ -1,0 +1,86 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --bg-primary: #161c2e;
+  --bg-soft: #1a2238;
+  --text: white;
+  --text-soft: #b7bac1;
+  --bg-hover: #2f374b;
+  --green: #0df90f;
+  --error: #EA2027;
+  --cancel: #7d4a5d;
+  --yellow: #d1aa0e;
+  --blue: rgb(10, 118, 172);
+  --cyan: rgb(66, 180, 237);
+  --done: #5b6d81;
+  --none: #747d8c;
+  --pending: #7e705b;
+  --btn-add: #5955bb;
+  --green-hevy: #048080;
+  --red-hevy: #d11540;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background: var(--bg-primary);
+}
+img{
+  width: 100%;
+}
+.container {
+  color: var(--text);
+}
+
+._login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-primary);
+}
+
+.active {
+  padding: 5px;
+  background: var(--green-hevy);
+  border-radius: 5px;
+}
+
+.waiting {
+  padding: 5px;
+  background: var(--yellow);
+  border-radius: 5px;
+}
+
+.error {
+  padding: 5px;
+  background: var(--red-hevy);
+  border-radius: 5px;
+}
+
+.private {
+  padding: 5px;
+  background: var(--btn-add);
+  border-radius: 5px;
+}
+
+.mgt_1 {
+  margin-top: 10px;
+}

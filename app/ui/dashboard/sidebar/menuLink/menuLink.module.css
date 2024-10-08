@@ -1,0 +1,16 @@
+
+.container{
+    padding:18px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin:5px 0;
+    font-size: 13px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.container:hover, .active{
+    background-color: var(--bg-hover);
+}

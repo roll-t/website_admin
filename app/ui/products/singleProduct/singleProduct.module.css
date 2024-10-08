@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.infoContainer{
+    height:fit-content;
+    align-items: center;
+}
+.infoContainer,
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--bg-soft);
+}
+/* .infoContainer{
+    min-width: 400px;
+} */
+.listImage{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.itemsImage{
+    width: 130px;
+    height: 80px;
+    overflow: hidden;
+}
+.input{
+    user-select: none;
+    outline: none;
+    pointer-events: none;
+    color: white;
+    font-size: 16px;
+    opacity: 100%;
+}
+.imageStyle{
+    width: 100%;
+    object-fit: cover;
+}
+.formContainer {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.listButton{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.buttonItems{
+    flex-basis: 25%;
+    padding:10px;
+    color: white;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete{
+    background: var(--red-hevy);
+}
+
+.error{
+    background: var(--yellow)
+}
+.examine{
+    background: var(--green-hevy)
+}
+
+
+.form input,.form select, .form textarea {
+    margin-bottom: 10px;
+    padding:15px;
+    border-radius: 5px;
+    background-color: var(--bg-primary);
+    border:1px solid var(--bg-hover);
+}
+
+.form label {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.form button{
+    margin-top: 20px;
+    background: var(--green-hevy);
+    color:var(--text);
+    padding:15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+}

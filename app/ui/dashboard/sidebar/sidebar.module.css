@@ -1,0 +1,56 @@
+
+.container{
+    position: sticky;
+    top:40px;
+    color: var(--text);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap:20px;   
+    margin-bottom: 20px;
+}
+.userImg{
+    object-fit: cover;
+}
+.userDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.userName{
+    font-weight: 500;
+}
+.userTitle{
+    font-size: 12px;
+    color:var(--text-soft);
+}
+
+.list{
+    list-style: none;
+    color: var(--text);
+}
+.cat{
+    color: var(--text-soft);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.logout{
+    background: none;
+    display:flex;
+    align-items: center;
+    gap:5px;
+    width: 100%;
+    border-radius: 10px;
+    padding:15px;
+    border:none;
+    color:var(--text);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logout:hover{
+    background-color: var(--bg-hover);
+}

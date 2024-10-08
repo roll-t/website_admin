@@ -1,0 +1,29 @@
+
+
+.pagination{
+    display: flex;
+    gap: 5px;
+}
+.pageButton{
+    border:none;
+    padding:5px 10px;
+    border-radius: 5px;
+    background:var(--green-hevy);
+    color:white;
+}
+.pageButton.active{
+    background:var(--green-hevy);
+}
+
+.pageButton.disabled{
+    background:var(--bg-hover);
+}
+
+.pageButton:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.itemPage{
+    background:var(--bg-hover);
+}

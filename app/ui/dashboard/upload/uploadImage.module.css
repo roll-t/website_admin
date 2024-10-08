@@ -1,0 +1,47 @@
+
+
+.inputFile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap:20px;
+    cursor: pointer;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.uploadForm{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+.centerCol{
+    justify-content: center;
+}
+.rlt{
+    position: relative;
+}
+.bsl{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.previewImage{
+    max-width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.btn{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    color: var(--text);
+    background: var(--blue);
+    cursor: pointer;
+}

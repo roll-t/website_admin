@@ -1,0 +1,23 @@
+.container{
+    padding:20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-soft);
+    align-items: center;
+}
+
+.title{
+    color:var(--text-soft);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}

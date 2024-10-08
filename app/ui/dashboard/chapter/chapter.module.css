@@ -1,0 +1,152 @@
+
+.container{
+    padding: 20px;
+    background: var(--bg-soft);
+    margin-top: 20px;
+    border-radius:10px;
+    color:var(--text);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnAdd{
+    background: var(--btn-add);
+    color:white;
+    border:none;
+    border-radius:5px ;
+    padding:10px;
+}
+
+
+.table{
+    margin-top: 20px;
+    width: 100%;   
+}
+
+.table td{
+    padding:10px;
+    cursor: pointer;
+}
+
+.table tr:hover{
+    background: var(--bg-hover);
+}
+.contentCol{
+    width: 40%;
+}
+.button{
+    padding:10px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bookCover{
+    padding-block: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100px;
+    background: var(--bg-primary);
+}
+.bookCover img{
+    object-fit: contain;
+    height: 100%;
+}
+.delete{
+    background: var(--red-hevy);
+}
+.view{
+    background: var(--green-hevy)
+}
+
+.edit{
+    background: var(--blue)
+}
+
+.add{
+    background: var(--blue)
+}
+
+.btns{
+    display: flex;
+    gap:10px;
+}
+.product{
+    display: flex ;
+    align-items: center;
+    gap:10px;
+}
+.product img{
+    border-radius: 10rem;
+}
+.titleCol{
+    width: 35%;
+}
+.pdBlock15{
+    padding-block: 15px;
+}
+.pdTop15{
+    padding-top: 15px;
+}
+
+.flex {
+    display: flex;
+}
+.des{
+    padding-right: 20px;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input,
+.form select {
+    background: var(--bg-primary);
+    border: 1px solid var(--bg-hover);
+    border-radius: 5px;
+    color: var(--text-soft);
+    padding: 15px;
+}
+
+.form select {
+    color: var(--text);
+    font-weight: bold;
+}
+
+.form textarea {
+    padding: 15px;
+    grid-column: 1/3;
+    background: var(--bg-primary);
+    border: 1px solid var(--bg-hover);
+    border-radius: 5px;
+    outline: none;
+    color: var(--text-soft);
+}
+
+.formContentChapter{
+    width: 100%;
+    min-height: 300px;
+    resize: vertical; 
+}
+
+.form button {
+    border-radius: 5px;
+    background: var(--green-hevy);
+    cursor: pointer;
+    grid-column: 1/3;
+    padding: 15px;
+    border: none;
+    color: var(--text);
+}

@@ -1,0 +1,79 @@
+
+.container{
+    padding: 20px;
+    background: var(--bg-soft);
+    margin-top: 20px;
+    border-radius:10px;
+    color:var(--text);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnAdd{
+    background: var(--btn-add);
+    color:white;
+    border:none;
+    border-radius:5px ;
+    padding:10px;
+}
+
+
+.table{
+    margin-top: 20px;
+    width: 100%;   
+}
+
+.table td{
+    padding:10px;
+    cursor: pointer;
+}
+
+.table tr:hover{
+    background: var(--bg-hover);
+}
+
+.button{
+    padding:10px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete{
+    background: var(--red-hevy);
+}
+.view{
+    background: var(--green-hevy)
+}
+
+.edit{
+    background: var(--blue)
+}
+
+.btns{
+    display: flex;
+    gap:10px;
+}
+.product{
+    display: flex ;
+    align-items: center;
+    gap:10px;
+}
+.product img{
+    border-radius: 10rem;
+}
+.titleCol{
+    width: 90%;
+}
+
+.des{
+    padding-right: 20px;
+    display:-webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
